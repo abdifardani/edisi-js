@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.span {
+    @apply w-[16px] h-[2px] bg-slate-800 block my-2 rounded-lg
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply -rotate-45 origin-center 
+}
+.hamburger-active > span:nth-child(3) {
+    @apply rotate-45 origin-center 
+}
+
+.skrol {
+    @apply translate-y-full
+}
